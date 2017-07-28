@@ -5,18 +5,19 @@
   "docsets_to_publish": [
     {
       "docset_name": "surface",
-      "build_source_folder": null,
       "build_output_subfolder": "/itpro",
-      "build_entry_point": "op.ps1",
       "locale": "ja-jp",
-      "version": 0,
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content"
-      }
+      },
+      "build_entry_point": "op.ps1",
+      "version": 0
     }
   ],
-  "notification_subscribers": null
+  "continue_with_document_error": true,
+  "skip_source_output_uploading": false,
+  "need_generate_pdf_url_template": false
 }
